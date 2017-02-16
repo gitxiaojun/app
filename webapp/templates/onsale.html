@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优惠信息</title>
+    <link href="http://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+{% for i in onsalexinxi %}
+    <a class="btn btn-primary" href="#">优惠菜品</a>
+    <img src="static/{{i.img}}" class="img-responsive">
+    {{i.begin_time}} - {{i.end_time}}
+    {{i.info}}
+{% endfor %}
+    <script src="http://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+</body>
+</html>
