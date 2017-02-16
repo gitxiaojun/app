@@ -1,0 +1,7 @@
+.idea
+*.pyc
+upload/*
+*.exe
+weixin_main/migrations/*
+yczjd/uwsgi.ini
+py_script/*
